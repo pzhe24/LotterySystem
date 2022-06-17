@@ -1,0 +1,181 @@
+*
+{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+  background: rgb(13, 110, 139);
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+}
+
+.header-container{
+  text-align: center;
+  font-size: 25px;
+  padding: 2%;
+}
+
+.container .col-leftside {
+  display:inline-block;
+  width: 30%;
+  background-color: rgb(252, 193, 33);
+  height: 90%;
+  position:absolute;
+}
+
+.container .col-rightside {
+  display:inline-block;
+  width: 30%;
+  background-color: yellow;
+  height:90%;
+  position:absolute;
+  left: 70%;
+}
+
+.col-mid {
+  display: inline-block;
+  width: 38.4%;
+  height: 55vh;
+  margin-right: 15px;
+  margin-left: 15px;
+  right: 30%;
+}
+
+.col-mid .col-mid-bottom{
+  position: absolute;
+  width: 50%;
+  height:20vh;
+  left: 30%;
+  align-items: center;
+  bottom: 0;
+  background-color: rgb(252, 193, 33);
+}
+
+.container .extraSpace{
+  background: url("../image/lotteryball.jpg");
+  height:40%;
+  width:80%;
+  margin:auto;
+  margin-top:50px;
+}
+
+.results{
+  font-size: 23px;
+  padding-top: 5%;
+}
+
+.numbersSelected p{
+  font-size:25px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.numbersSelected{
+  margin-top: 10px;
+  margin-left:10px;
+}
+
+h1 {
+  color:rgb(243, 243, 16);
+}
+
+.coinButton{
+  height: 110px;
+  width: 110px;
+  border-radius: 100px;
+  background-color: rgb(4, 81, 117);
+  color:white;
+  margin-left:20%;
+  margin-top: 10%;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: bold;
+  border: None;
+
+}
+
+button:hover{
+  background-color: rgb(3, 151, 250);
+}
+
+.numButtons{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 50px 20px;
+  position:relative;
+  left:78%;
+  top: -140px;
+}
+
+.selectedButtonStyle {
+  font-size: 30px;
+  background-color: rgb(250, 120, 120);
+  border-radius: 20px;
+  width: 100%;
+  height: 200%;
+}
+
+.unselectedButtonStyle {
+  font-size: 30px;
+  background-color: bisque;
+  border-radius: 20px;
+  width: 100%;
+  height: 200%;
+}
+
+.bigButtons{
+  position: relative;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  box-sizing: border-box;
+  left:79%;
+  margin-top: -40px;
+}
+
+.totalBet {
+  position:absolute;
+  bottom:210px;
+}
+
+#randButton{
+  font-size: 20px;
+  border-radius: 50px;
+  background-color: bisque;
+  font-weight: bold;
+  width:90%;
+  height: 300%;
+}
+
+#clearButton {
+  position: relative;
+  font-size: 20px;
+  border-radius: 50px;
+  background-color: bisque;
+  font-weight: bold;
+  width:90%;
+  height: 300%;
+}
+
+#cashButton{
+  font-size: 20px;
+  border-radius: 50px;
+  background-color: bisque;
+  font-weight: bold;
+  width:90%;
+  height: 300%;
+}
+
+#randButton:hover{
+  background-color: rgb(247, 103, 103);
+}
+
+#clearButton:hover{
+  background-color: rgb(247, 103, 103);
+}
+
+#cashButton:hover{
+  background-color: rgb(247, 103, 103);
+}
+
